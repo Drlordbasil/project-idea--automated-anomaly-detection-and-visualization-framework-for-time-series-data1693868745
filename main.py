@@ -57,10 +57,13 @@ class TimeSeriesAnomalyDetection:
         preprocessed_data = self.data_preprocessing()
 
         # Plot line plot
+        plt.plot(preprocessed_data)
 
         # Plot heatmap
+        sns.heatmap(preprocessed_data)
 
         # Plot scatter plot
+        plt.scatter(preprocessed_data)
 
         pass
 
