@@ -58,14 +58,15 @@ class TimeSeriesAnomalyDetection:
 
         # Plot line plot
         plt.plot(preprocessed_data)
+        plt.show()
 
         # Plot heatmap
         sns.heatmap(preprocessed_data)
+        plt.show()
 
         # Plot scatter plot
         plt.scatter(preprocessed_data)
-
-        pass
+        plt.show()
 
     def statistical_analysis(self):
         # Perform statistical analysis on detected anomalies
